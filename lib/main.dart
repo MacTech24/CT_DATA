@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'constants/colors.dart';
+import 'screens/Password/password_screen.dart';
 import 'screens/main/main_screen.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primaryColor: white, appBarTheme: const AppBarTheme(color: white)),
       debugShowCheckedModeBanner: false,
-      home: Splash(),
+      home: PasswordScreen(),
     );
   }
 }

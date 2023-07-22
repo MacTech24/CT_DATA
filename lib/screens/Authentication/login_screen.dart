@@ -35,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
         elevation: 0,
         centerTitle: true,
         title: Text(
-          "Create an account",
+          "Sign In",
           style: style1(
             black,
             getProportionateScreenHeight(22),
