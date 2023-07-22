@@ -1,4 +1,4 @@
-import 'package:ct_data/utils_size.dart';
+import 'package:ct_data/Utils/utils_size.dart';
 import 'package:flutter/material.dart';
 import '../constants/colors.dart';
 import '../constants/image_url.dart';

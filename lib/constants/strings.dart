@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+const String splashText = "Best Way to Access the World";
+
 const String dashboardText = "Dashboard";
 const String transactionText = "Transaction";
 const String beneficiaryText = "Beneficiaries";

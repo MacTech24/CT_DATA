@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../../constants/colors.dart';
 import '../../../constants/strings.dart';
-import '../../../utils_size.dart';
+import '../../../Utils/utils_size.dart';
 import 'box.dart';
 
 class OldUser extends StatelessWidget {
@@ -24,7 +24,6 @@ class OldUser extends StatelessWidget {
             FontWeight.normal,
           ),
         ),
-        
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

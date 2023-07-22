@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../constants/colors.dart';
-import '../../../utils_size.dart';
+import '../../../Utils/utils_size.dart';
 
 class bottomNavIcons extends StatelessWidget {
   const bottomNavIcons({

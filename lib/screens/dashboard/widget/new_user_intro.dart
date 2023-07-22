@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../constants/colors.dart';
 import '../../../constants/strings.dart';
-import '../../../utils_size.dart';
+import '../../../Utils/utils_size.dart';
 
 class NewUseIntro extends StatelessWidget {
   const NewUseIntro({
