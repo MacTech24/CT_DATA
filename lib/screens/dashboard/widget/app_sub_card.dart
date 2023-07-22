@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../../constants/colors.dart';
 import '../../../constants/strings.dart';
-import '../../../utils_size.dart';
+import '../../../Utils/utils_size.dart';
 import 'copy_box.dart';
 
 class AppSubCard extends StatelessWidget {

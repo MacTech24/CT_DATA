@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:ct_data/constants/colors.dart';
 import 'package:ct_data/constants/strings.dart';
-import 'package:ct_data/utils_size.dart';
+import 'package:ct_data/Utils/utils_size.dart';
 import 'package:flutter/material.dart';
 
 class TransactionsModel extends StatelessWidget {

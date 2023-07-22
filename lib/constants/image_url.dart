@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+const String splashBgUrl = "assets/images/splash_bg.png";
+const String logoUrl = "assets/images/logo.png";
+const String ellips = "assets/images/ellips.png";
+
 const String dashbordActiveIcon = "assets/icons/dashboard-active.png";
 const String dashbordInactiveIcon = "assets/icons/dashboard-inactive.png";
 

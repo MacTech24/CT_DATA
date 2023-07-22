@@ -1,5 +1,5 @@
 import 'package:ct_data/constants/colors.dart';
-import 'package:ct_data/utils_size.dart';
+import 'package:ct_data/Utils/utils_size.dart';
 import 'package:flutter/material.dart';
 import 'widget/dashboard_body.dart';
 

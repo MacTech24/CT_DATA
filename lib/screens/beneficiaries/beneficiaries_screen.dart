@@ -3,7 +3,7 @@ import 'package:ct_data/constants/strings.dart';
 import 'package:ct_data/global_widgets/custom_drawer.dart';
 import 'package:ct_data/models/beneficiary_model.dart';
 
-import 'package:ct_data/utils_size.dart';
+import 'package:ct_data/Utils/utils_size.dart';
 import 'package:flutter/material.dart';
 
 import '../beneficiary_search/beneficiary_search.dart';

@@ -1,6 +1,8 @@
+import 'package:ct_data/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'constants/colors.dart';
 import 'screens/main/main_screen.dart';
 
 void main() {
@@ -15,8 +17,10 @@ class MyApp extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(
         SystemUiOverlayStyle(statusBarColor: Colors.transparent));
     return MaterialApp(
+      theme: ThemeData(
+          primaryColor: white, appBarTheme: const AppBarTheme(color: white)),
       debugShowCheckedModeBanner: false,
-      home: MainScreen(),
+      home: Splash(),
     );
   }
 }

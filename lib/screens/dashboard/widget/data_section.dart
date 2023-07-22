@@ -1,7 +1,7 @@
 import 'package:ct_data/constants/colors.dart';
 import 'package:ct_data/constants/strings.dart';
 import 'package:ct_data/screens/international_data/international_data.dart';
-import 'package:ct_data/utils_size.dart';
+import 'package:ct_data/Utils/utils_size.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/image_url.dart';

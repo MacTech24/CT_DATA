@@ -3,7 +3,7 @@ import 'package:ct_data/constants/strings.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/colors.dart';
-import '../../../utils_size.dart';
+import '../../../Utils/utils_size.dart';
 
 class Box extends StatelessWidget {
   const Box({

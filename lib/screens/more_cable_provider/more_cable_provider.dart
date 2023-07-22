@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 import '../../constants/colors.dart';
 
 import '../../constants/strings.dart';
-import '../../utils_size.dart';
+import '../../Utils/utils_size.dart';
 
 class MoreCableProvider extends StatefulWidget {
   const MoreCableProvider({Key? key}) : super(key: key);
