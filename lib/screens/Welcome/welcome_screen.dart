@@ -78,7 +78,7 @@ class WelcomeScreen extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(10),
                               ),
                               child: Text(
-                                "Get Started",
+                                "Register",
                                 style: style1(
                                     white,
                                     getProportionateScreenWidth(16),

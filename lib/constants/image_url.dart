@@ -47,3 +47,6 @@ const String moreUrl = "assets/icons/more.png";
 const String ctDataUrl = "assets/icons/data.png";
 const String dstv = "assets/images/dstv.jpg";
 const String data = "assets/images/international_data.png";
+
+//Password urls
+const String logoOrange = "assets/images/logo-orange.png";
