@@ -32,3 +32,33 @@ Widget customButton({
     ),
   );
 }
+
+Widget onboardingButton({
+  VoidCallback? onTap,
+  String? text,
+  BuildContext? context,
+}) {
+  return InkWell(
+    onTap: onTap,
+    child: Container(
+      height: getProportionateScreenHeight(55),
+      width: MediaQuery.of(context!).size.width,
+      alignment: Alignment.center,
+      margin: EdgeInsets.symmetric(
+        vertical: getProportionateScreenHeight(15),
+      ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10),
+        color: orangeColor,
+      ),
+      child: Text(
+        text!,
+        style: style1(
+          white,
+          getProportionateScreenWidth(16),
+          FontWeight.bold,
+        ),
+      ),
+    ),
+  );
+}

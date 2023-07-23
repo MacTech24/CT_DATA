@@ -3,38 +3,6 @@ import 'package:ct_data/constants/colors.dart';
 import 'package:ct_data/constants/strings.dart';
 import 'package:flutter/material.dart';
 
-// Widget customTextField(
-//     {String? hintText,
-//     Widget? suffixIcon,
-//     Widget? label,
-//     TextEditingController? controller,
-//     BuildContext? context,
-//     bool obscureText = false}) {
-//   return Container(
-//     padding: EdgeInsets.symmetric(
-//       horizontal: getProportionateScreenWidth(10),
-//     ),
-//     margin: EdgeInsets.symmetric(vertical: getProportionateScreenHeight(10)),
-//     decoration: BoxDecoration(
-//       border: Border.all(
-//         color: grey,
-//         width: 2,
-//       ),
-//       borderRadius: BorderRadius.circular(10),
-//     ),
-//     child: TextFormField(
-//       obscureText: obscureText,
-//       controller: controller,
-//       decoration: InputDecoration(
-//         hintText: hintText,
-//         suffixIcon: suffixIcon,
-//         label: label,
-//         border: InputBorder.none,
-//       ),
-//     ),
-//   );
-// }
-
 Widget customTextField(
     {String? hintText,
     Widget? suffixIcon,
